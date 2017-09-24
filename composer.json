@@ -1,0 +1,19 @@
+{
+  "name": "awesome-sauce",
+  "description": "This is my first hook call awesome sauce.",
+  "require": {
+    "larapack/hooks": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AwesomeSauce\\": "src/"
+    }
+  },
+  "extra": {
+    "hook": {
+      "providers": [
+        "AwesomeSauce\\AwesomeSauceServiceProvider"
+      ]
+    }
+  }
+}
